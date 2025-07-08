@@ -43,7 +43,7 @@ def bake(cupcakes):
 
 ## Demo: 5 Ways to write this function
 
-<video width="400" controls loop muted playsinline>
+<video width="100%" style="max-width: 1200px;" controls loop muted playsinline>
   <source src="../assets/5ways.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
