@@ -11,6 +11,4 @@ Avoid “vibe coding” where you let it do all the work.
 - Write code you don’t understand
 - Skip learning
 
----
-
-<iframe src="../assets/5ways.html" width="100%" height="500" style="border:none;"></iframe>
+<video src="assets/5ways.mp4" autoplay loop muted playsinline width="400"></video>
