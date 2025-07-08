@@ -9,5 +9,7 @@ You did it! 🧁
 
 ### Resources:
 - [GitHub Copilot Docs](https://docs.github.com/en/copilot)
-g/
-- [She Codes Australia](https://she
+- [GitHub Copilot Fundamentals](https://learn.microsoft.com/en-us/training/paths/copilot/)
+- [GitHub Copilot Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-copilot/?practice-assessment-type=certification)
+- [She Codes Australia](https://shecodes.com.au/)
+
