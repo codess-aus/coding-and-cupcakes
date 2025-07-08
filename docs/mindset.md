@@ -40,67 +40,10 @@ Instead, we want to **learn actively**.
 def bake(cupcakes):
     return sorted(cupcakes)
 ```
-Copilot will add comments or explain the logic. You learn while you code!
 
----
+## Demo: 5 Ways to write this function
 
-### 2. **Use Copilot to explore alternatives**
-```js
-// Show me another way to write this loop
-for (let i = 0; i < cupcakes.length; i++) {
-  console.log(cupcakes[i]);
-}
-```
-You’ll see different patterns and styles—great for growing your coding vocabulary.
-
----
-
-### 3. **Prompt Copilot with learning goals**
-```js
-// I want to learn how to validate form inputs
-```
-Copilot will guide you through examples, but you still write and test the code.
-
----
-
-### 4. **Use Copilot to review your work**
-```js
-// Suggest improvements to this function
-function rateCupcake(flavor, rating) {
-  return `${flavor} gets a ${rating}/5!`;
-}
-```
-Copilot can help you refactor, optimize, or add error handling.
-
----
-
-## 🍭 Copilot is your Coding Coach
-
-Here’s what a good coach does:
-- Encourages you to try
-- Explains when you’re stuck
-- Challenges you to improve
-
-Copilot can do all of this—**if you treat it like a coach**, not a crutch.
-
----
-
-## 🎂 Cupcake Coding Tips
-
-- 🍰 **Comment often**: Use comments to guide Copilot and clarify your intent.
-- 🧁 **Review everything**: Don’t accept suggestions blindly—read, tweak, and understand.
-- 🍩 **Ask questions**: Use Copilot to learn *why* something works, not just *how*.
-- 🍬 **Stay curious**: Explore new patterns, libraries, and techniques with Copilot’s help.
-
----
-
-## 💖 Final Thought
-
-You’re here to **learn**, **grow**, and **bake amazing code**.  
-Copilot is your sweet sidekick—but you’re the star of the show. 🌟
-
-Let’s whisk up some wisdom and bake brilliance together! 🧁
-
-## Demo 5 Ways to write this function
-
-<video src="assets/5ways.mp4" autoplay loop muted playsinline width="400"></video>
+<video width="400" controls loop muted playsinline>
+  <source src="../assets/5ways.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
