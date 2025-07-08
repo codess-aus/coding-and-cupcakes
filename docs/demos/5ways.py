@@ -50,7 +50,25 @@ if __name__ == "__main__":
     print(f"3. While loop: {factorial_while(test_number)}")
     print(f"4. Built-in: {factorial_builtin(test_number)}")
     print(f"5. Reduce: {factorial_reduce(test_number)}")
+    print("\n")  # Add a blank line for clarity
 
+# Example of recursion using nesting dolls (Matryoshka)
+def open_nesting_doll(size):
+    # Base case: smallest doll (stops recursion)
+    if size == 1:
+        print(f"Found the smallest doll of size {size}! 🪆")
+        return
+    
+    # Recursive case: open current doll and look inside
+    print(f"Opening doll of size {size} 🪆")
+    open_nesting_doll(size - 1)  # Call the same function with a smaller size
+    print(f"Closing doll of size {size} 🪆")
+
+# Test the nesting dolls function
+if __name__ == "__main__":
+    print("Demonstrating recursion with nesting dolls:")
+    open_nesting_doll(3)
+    print("\n")  # Add a blank line for clarity
 
 # What does this function do?
 def bake(cupcakes):
