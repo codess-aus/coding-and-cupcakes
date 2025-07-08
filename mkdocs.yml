@@ -1,8 +1,8 @@
-site_name: Coding & Cupcakes 🍰
+site_name: Coding & Cupcakes 🍰 with Microsoft & She Codes Australia
 theme:
   name: material
   palette:
-    primary: pink
+    primary: purple
     accent: deep purple
   font:
     text: Roboto
