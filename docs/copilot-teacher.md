@@ -37,6 +37,52 @@ You can also ask:
 
 This prompts Copilot to generate a teaching snippet—like a mini tutorial!
 
+![Recursion1](assets/recursion1.png)
+```python
+def open_nesting_doll(size):
+    # Base case: smallest doll (stops recursion)
+    if size == 1:
+        print(f"Found the smallest doll of size {size}!")
+        return
+    
+    # Recursive case: open current doll and look inside
+    print(f"Opening doll of size {size}")
+    open_nesting_doll(size - 1)  # Call the same function with a smaller size
+    print(f"Closing doll of size {size}")
+
+# Try it with 3 nested dolls
+open_nesting_doll(3)
+```
+When you run this code, it will output:
+```python
+Opening doll of size 3
+Opening doll of size 2
+Found the smallest doll of size 1!
+Closing doll of size 2
+Closing doll of size 3
+```
+
+![Recursion2](assets/recursion2.png)
+![Recursion3](assets/recursion3.png)
+```python
+def factorial(n):
+    if n == 0:        # Base case
+        return 1
+    else:             # Recursive case
+        return n * factorial(n-1)
+```
+If we calculate factorial(3), it works like this:
+```python
+factorial(3)
+→ 3 * factorial(2)
+  → 2 * factorial(1)
+    → 1 * factorial(0)
+      → 1            # Base case reached
+    → 1 * 1 = 1
+  → 2 * 1 = 2
+→ 3 * 2 = 6
+```
+![Recursion4](assets/recursion4.png)
 ---
 
 ## 🍬 Learn Concepts in Context

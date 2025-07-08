@@ -14,4 +14,5 @@ nav:
   - Copilot as Teacher: copilot-teacher.md
   - Copilot as Pair Programmer: copilot-pair.md
   - Copilot as Enabler: copilot-enabler.md
+  - Code Demos: demos/5ways.py
   - Wrap-Up & Resources: wrapup.md
