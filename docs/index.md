@@ -16,4 +16,4 @@ Let’s bake some code together! 🧁
 -->
 <video src="assets/20250708-111619-sora.mp4" autoplay loop muted playsinline width="400"></video>
 
-*Image created with sora in Azure AI Foundry Video Playground*
+*Video created with sora in Azure AI Foundry Video Playground*
