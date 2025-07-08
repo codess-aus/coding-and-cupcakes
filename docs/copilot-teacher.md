@@ -1,7 +1,8 @@
 # 👩‍🏫 Copilot as a Teacher
 
 Welcome to the classroom of code—with cupcakes! 🧁  
-# 👩In this section, we’ll explore how GitHub Copilot can be your **coding teacher**, helping you learn new concepts, understand syntax, and build confidence in your skills.
+
+👩In this section, we’ll explore how GitHub Copilot can be your **coding teacher**, helping you learn new concepts, understand syntax, and build confidence in your skills.
 
 ---
 
@@ -28,6 +29,7 @@ def bake(cupcakes):
 ```
 
 Copilot will often respond with a comment or rewrite that explains the logic.  
+
 You can also ask:
 ```python
 # Explain recursion with a simple example
