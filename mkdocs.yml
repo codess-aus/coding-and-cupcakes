@@ -1,0 +1,17 @@
+site_name: Coding & Cupcakes 🍰
+theme:
+  name: material
+  palette:
+    primary: pink
+    accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Home: index.md
+  - Welcome: welcome.md
+  - Mindset Shift: mindset.md
+  - Copilot as Teacher: copilot-teacher.md
+  - Copilot as Pair Programmer: copilot-pair.md
+  - Copilot as Enabler: copilot-enabler.md
+  - Wrap-Up & Resources: wrapup.md
