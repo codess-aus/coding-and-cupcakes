@@ -1,6 +1,7 @@
 # 🍰 Coding & Cupcakes
 
-Welcome to your sweet journey into AI-assisted coding!  
+Welcome to your sweet journey into AI-assisted coding with Michelle Sandford from Microsoft in collaboration with She Codes Australia!
+
 This workshop is all about using GitHub Copilot as your **coach**, **teacher**, and **pair programmer**—not your replacement.
 
 Let’s bake some code together! 🧁
@@ -16,4 +17,4 @@ Let’s bake some code together! 🧁
 -->
 <video src="assets/20250708-111619-sora.mp4" autoplay loop muted playsinline width="400"></video>
 
-*Video created with sora in Azure AI Foundry Video Playground*
+<p style="font-size: 0.8em; color: #666;">Video created with sora in Azure AI Foundry Video Playground</p>
