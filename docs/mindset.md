@@ -13,4 +13,4 @@ Avoid “vibe coding” where you let it do all the work.
 
 ---
 
-<iframe src="assets/5ways.html" width="100%" height="500" style="border:none;"></iframe>
+<iframe src="../assets/5ways.html" width="100%" height="500" style="border:none;"></iframe>
