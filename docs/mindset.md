@@ -40,21 +40,7 @@ Instead, we want to **learn actively**.
 def bake(cupcakes):
     return sorted(cupcakes)
 ```
-GitHub Copilot explains this function:
-
-Takes a parameter cupcakes (likely a list or any iterable)
-Uses Python's built-in sorted() function to sort the items
-Returns the sorted version of the input
-So if you had a list of cupcake flavors like:
-
-```python
-cupcakes = ["chocolate", "vanilla", "strawberry", "banana"]
-result = bake(cupcakes)
-# result would be: ["banana", "chocolate", "strawberry", "vanilla"]
-```
-The function sorts the items in ascending order (alphabetically for strings, numerically for numbers). However, naming this function "bake" is a bit misleading since it's just sorting items rather than doing any actual "baking" operations. A more appropriate name might be sort_cupcakes() to better reflect what the function actually does.
-
-Would you like me to show you different ways to implement this sorting functionality, similar to how we showed different ways to implement the factorial function?
+![Bake](assets/bake.png)
 
 ```python
 # Method 1: Using Python's built-in sorted() function

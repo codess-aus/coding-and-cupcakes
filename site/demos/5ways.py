@@ -50,3 +50,8 @@ if __name__ == "__main__":
     print(f"3. While loop: {factorial_while(test_number)}")
     print(f"4. Built-in: {factorial_builtin(test_number)}")
     print(f"5. Reduce: {factorial_reduce(test_number)}")
+
+
+# What does this function do?
+def bake(cupcakes):
+    return sorted(cupcakes)

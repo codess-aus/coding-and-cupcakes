@@ -561,6 +561,45 @@
 def bake(cupcakes):
     return sorted(cupcakes)
 </code></pre>
+<p><img alt="Bake" src="../assets/bake.png" /></p>
+<pre><code class="language-python"># Method 1: Using Python's built-in sorted() function
+def sort_cupcakes_builtin(cupcakes):
+    return sorted(cupcakes)
+
+# Method 2: Using bubble sort implementation
+def sort_cupcakes_bubble(cupcakes):
+    cupcakes = cupcakes.copy()  # Make a copy to avoid modifying original
+    n = len(cupcakes)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if cupcakes[j] &gt; cupcakes[j + 1]:
+                cupcakes[j], cupcakes[j + 1] = cupcakes[j + 1], cupcakes[j]
+    return cupcakes
+
+# Method 3: Using list.sort() method
+def sort_cupcakes_list(cupcakes):
+    result = cupcakes.copy()  # Make a copy to avoid modifying original
+    result.sort()
+    return result
+
+# Method 4: Using sorted() with a key function for case-insensitive sorting
+def sort_cupcakes_insensitive(cupcakes):
+    return sorted(cupcakes, key=str.lower)
+
+# Method 5: Using sorted() with reverse order (descending)
+def sort_cupcakes_reverse(cupcakes):
+    return sorted(cupcakes, reverse=True)
+
+# Test all implementations
+if __name__ == &quot;__main__&quot;:
+    test_cupcakes = [&quot;Vanilla&quot;, &quot;chocolate&quot;, &quot;Strawberry&quot;, &quot;banana&quot;]
+    print(&quot;Sorting cupcake flavors:&quot;)
+    print(f&quot;1. Built-in sorted(): {sort_cupcakes_builtin(test_cupcakes)}&quot;)
+    print(f&quot;2. Bubble sort: {sort_cupcakes_bubble(test_cupcakes)}&quot;)
+    print(f&quot;3. List sort method: {sort_cupcakes_list(test_cupcakes)}&quot;)
+    print(f&quot;4. Case-insensitive: {sort_cupcakes_insensitive(test_cupcakes)}&quot;)
+    print(f&quot;5. Reverse order: {sort_cupcakes_reverse(test_cupcakes)}&quot;)
+</code></pre>
 <h2 id="demo-5-ways-to-write-this-function">Demo: 5 Ways to write this function</h2>
 <video width="100%" style="max-width: 1200px;" controls loop muted playsinline>
   <source src="../assets/5ways.mp4" type="video/mp4">
