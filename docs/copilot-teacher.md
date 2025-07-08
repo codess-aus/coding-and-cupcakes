@@ -117,6 +117,7 @@ Copilot is great at showing *how* something works—but you can push it further 
 ```js
 // Why is this function using map instead of forEach?
 ```
+![map](assets/map.png)
 
 This encourages Copilot to explain the difference, helping you understand **intent and design choices**.
 
@@ -143,10 +144,12 @@ This turns Copilot into a **learning loop**—you ask, it answers, you improve.
 
 ## 🎂 Cupcake Coding Tips for Learning
 
-- 🍰 **Be specific**: Ask clear questions in comments.
+- 🍰 **Be specific**: Ask clear questions in comments or chat.
 - 🧁 **Review suggestions**: Don’t just accept—read and understand.
 - 🍩 **Tweak examples**: Change inputs, add conditions, break things!
 - 🍬 **Ask for alternatives**: “Show me another way to do this.”
+- 🍭 **TLDR**: "Explain it to me like I'm 5"
+- 🍪 **Add Notes**: "Add verbose comments to the code"
 
 ---
 

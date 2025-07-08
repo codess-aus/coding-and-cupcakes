@@ -351,6 +351,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#learn-concepts-in-context" class="md-nav__link">
     <span class="md-ellipsis">
       🍬 Learn Concepts in Context
@@ -484,6 +493,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../demos/5ways.py" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Code Demos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../wrapup/" class="md-nav__link">
         
   
@@ -555,6 +586,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
   
 </li>
       
@@ -672,7 +712,47 @@ def bake(cupcakes):
 <pre><code class="language-python"># Explain recursion with a simple example
 </code></pre>
 <p>This prompts Copilot to generate a teaching snippet—like a mini tutorial!</p>
-<hr />
+<p><img alt="Recursion1" src="../assets/recursion1.png" /></p>
+<pre><code class="language-python">def open_nesting_doll(size):
+    # Base case: smallest doll (stops recursion)
+    if size == 1:
+        print(f&quot;Found the smallest doll of size {size}!&quot;)
+        return
+
+    # Recursive case: open current doll and look inside
+    print(f&quot;Opening doll of size {size}&quot;)
+    open_nesting_doll(size - 1)  # Call the same function with a smaller size
+    print(f&quot;Closing doll of size {size}&quot;)
+
+# Try it with 3 nested dolls
+open_nesting_doll(3)
+</code></pre>
+<p>When you run this code, it will output:</p>
+<pre><code class="language-python">Opening doll of size 3
+Opening doll of size 2
+Found the smallest doll of size 1!
+Closing doll of size 2
+Closing doll of size 3
+</code></pre>
+<p><img alt="Recursion2" src="../assets/recursion2.png" />
+<img alt="Recursion3" src="../assets/recursion3.png" /></p>
+<pre><code class="language-python">def factorial(n):
+    if n == 0:        # Base case
+        return 1
+    else:             # Recursive case
+        return n * factorial(n-1)
+</code></pre>
+<p>If we calculate factorial(3), it works like this:</p>
+<pre><code class="language-python">factorial(3)
+→ 3 * factorial(2)
+  → 2 * factorial(1)
+    → 1 * factorial(0)
+      → 1            # Base case reached
+    → 1 * 1 = 1
+  → 2 * 1 = 2
+→ 3 * 2 = 6
+</code></pre>
+<h2 id="_1"><img alt="Recursion4" src="../assets/recursion4.png" /></h2>
 <h2 id="learn-concepts-in-context">🍬 Learn Concepts in Context</h2>
 <p>Use Copilot to explore tricky topics like:</p>
 <ul>
