@@ -14,4 +14,4 @@ Let’s bake some code together! 🧁
   - `width`: (Optional) Controls the display size.
   Replace "your-video.mp4" with your actual video file path or URL.
 -->
-<video src="../assets/20250708-111619-sora.mp4" autoplay loop muted playsinline width="400"></video>
+<video src="assets/20250708-111619-sora.mp4" autoplay loop muted playsinline width="400"></video>
