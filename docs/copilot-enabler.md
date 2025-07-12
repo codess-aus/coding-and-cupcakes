@@ -160,6 +160,79 @@ Boom! Bug fixed, lesson learned.
 
 ---
 
+# 🧠⚡ GitHub Copilot Features: What’s Hot & What’s Dropping
+
+**Status:** ✅ Completed  
+**XP:** 💯 100  
+**Time:** ⏱️ 6 mins  
+
+---
+
+## 🚀 Copilot = Your AI Coding Sidekick
+
+GitHub Copilot’s got a growing list of features for solo devs and orgs. Some are 🔒 exclusive, others are 🔓 public preview. What you get depends on your plan.
+
+---
+
+## 🧩 Core Features (General Availability)
+
+### ✨ Code Completion
+- Autocomplete vibes in VS Code, Visual Studio, JetBrains, Azure Data Studio, Xcode, Vim/Neovim, Eclipse.
+- In VS Code: “Next edit suggestions” predict your next move and help you code faster.
+
+---
+
+### 💬 Copilot Chat
+- Ask coding Qs, update files, get help.
+- Available in GitHub Web, GitHub Mobile, IDEs (VS Code, Visual Studio, JetBrains, Eclipse, Xcode), and Windows Terminal.
+- GitHub Skills in Chat (not in Free plan).
+
+---
+
+### 🛠️ Copilot Edits
+Edit across files from one chat prompt.
+
+- **Edit Mode**: You control the files, context, and edits.
+- **Agent Mode**: Copilot takes the wheel, edits code, runs terminal commands, and fixes stuff until the task’s done. (Only in VS Code)
+
+---
+
+### 🔍 Code Review
+AI-powered suggestions to help you write cleaner, smarter code.
+
+---
+
+### 🧑‍💻 Copilot in the CLI
+Chat with Copilot in your terminal. Ask for command help, get suggestions, and explanations. Works in Windows Terminal Canary too.
+
+---
+
+### 📦 Pull Request Summaries
+Copilot auto-generates summaries of PR changes, impacted files, and review tips. (Not in Free plan)
+
+---
+
+### 🧪 Copilot Extensions
+Plug external tools into Copilot Chat via GitHub Apps. Build your own or grab from GitHub Marketplace.
+
+---
+
+### 🧠 Custom Instructions
+Tell Copilot your coding style, tools, and preferences to get better responses.
+
+---
+
+### 📚 Knowledge Bases (Enterprise Only)
+Create doc collections to use as context in Copilot Chat. Ask smarter questions in GitHub or VS Code.
+
+---
+
+## 🧠 TL;DR
+
+Copilot’s stacked with features to level up your coding game. From smart suggestions to full-on AI agents, it’s built to boost your dev flow. What you get depends on your plan, but even the basics are 🔥.
+
+
+
 ## 💖 Final Thought
 
 Copilot is like a cupcake decorator who helps you make your creations shine.  
